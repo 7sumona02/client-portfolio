@@ -18,7 +18,7 @@ const workData = [
     link: 'https://gold-channel-247442.framer.app/',
   },
   {
-    name: 'Raeder.io',
+    name: 'Reader.io',
     image: '/projects/p3.png',
     link: 'https://effective-colleagues-235496.framer.app/',
   },
