@@ -15,22 +15,17 @@ const workData = [
   {
     name: 'Verdura',
     image: '/projects/p1.png',
-    link: '/',
+    link: 'https://gold-channel-247442.framer.app/',
+  },
+  {
+    name: 'Raeder.io',
+    image: '/projects/p3.png',
+    link: 'https://effective-colleagues-235496.framer.app/',
   },
   {
     name: 'Mensa',
     image: '/projects/p2.png',
-    link: '/',
-  },
-  {
-    name: 'Portfolio Website',
-    image: 'https://cdn.cosmos.so/0cde1dd9-4d17-4343-bb28-44dd6677ce1c?format=jpeg',
-    link: '/',
-  },
-  {
-    name: 'Creative Landing Page',
-    image: 'https://cdn.cosmos.so/664146b7-05fd-4847-b886-9ef6c1fc9f2e?format=jpeg',
-    link: '/',
+    link: 'https://silver-graphs-323923.framer.app/',
   },
 ]
 
