@@ -13,13 +13,13 @@ const fig = Figtree({
 
 const workData = [
   {
-    name: 'Mental Health AI Website',
-    image: 'https://cdn.cosmos.so/d1827ff1-de6f-4ea9-83b4-1c311aa799c3?format=jpeg',
+    name: 'Verdura',
+    image: '/projects/p1.png',
     link: '/',
   },
   {
-    name: 'Restaurant Website',
-    image: 'https://cdn.cosmos.so/da0d64b0-99e4-4fc3-994c-af2a656a1035?format=jpeg',
+    name: 'Mensa',
+    image: '/projects/p2.png',
     link: '/',
   },
   {
@@ -36,7 +36,7 @@ const workData = [
 
 const Page = () => {
   return (
-    <div className="h-screen w-full bg-black text-white p-10 flex items-start justify-between gap-20 overflow-hidden">
+    <div className="md:h-screen h-full w-full bg-black text-white p-10 flex md:flex-row flex-col items-start justify-between gap-20 overflow-hidden">
       {/* Left content */}
       <div>
         <Link href='/' className={`${doto.className} text-2xl leading-6`}>
@@ -67,7 +67,7 @@ to see how I turn ideas into engaging digital experiences.
       <div className="h-[94vh] overflow-y-scroll hide-scrollbar flex flex-col gap-10">
         {workData.map((work, i) => (
           <Link key={i} href={work.link}>
-            <div className="w-[45vw] cursor-pointer relative group">
+            <div className="md:w-[45vw] w-full cursor-pointer relative group">
               <img
                 src={work.image}
                 alt={work.name}
