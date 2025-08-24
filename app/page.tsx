@@ -18,6 +18,11 @@ const workData = [
     link: 'https://gold-channel-247442.framer.app/',
   },
   {
+    name: 'Creative Agency',
+    image: '/projects/p4.png',
+    link: 'https://miraculous-taxonomy-313008.framer.app/',
+  },
+  {
     name: 'Reader.io',
     image: '/projects/p3.png',
     link: 'https://effective-colleagues-235496.framer.app/',
